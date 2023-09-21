@@ -35,14 +35,13 @@ No modules.
 |------|------|
 | [google_folder.folder](https://registry.terraform.io/providers/hashicorp/google/latest/docs/resources/folder) | resource |
 | [google_folder_iam_audit_config.audit](https://registry.terraform.io/providers/hashicorp/google/latest/docs/resources/folder_iam_audit_config) | resource |
-| [google_folder.aw_folder](https://registry.terraform.io/providers/hashicorp/google/latest/docs/data-sources/folder) | data source |
 
 ## Inputs
 
 | Name | Description | Type | Default | Required |
 |------|-------------|------|---------|:--------:|
-| <a name="input_aw_folder_id"></a> [aw\_folder\_id](#input\_aw\_folder\_id) | ID of Assured Workloads folder | `string` | n/a | yes |
 | <a name="input_name"></a> [name](#input\_name) | Name of folder | `string` | n/a | yes |
+| <a name="input_parent"></a> [parent](#input\_parent) | ID of parent folder | `string` | n/a | yes |
 
 ## Outputs
 
