@@ -1,14 +1,10 @@
-data "google_folder" "aw_folder" {
-  folder = "folders/${var.aw_folder_id}"
-}
-
 /*************************************************
   Create folders
 *************************************************/
 
 resource "google_folder" "folder" {
   display_name = var.name
-  parent       = data.google_folder.aw_folder.name
+  parent       = var.parent
 }
 
 resource "google_folder_iam_audit_config" "audit" {

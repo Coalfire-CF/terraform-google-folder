@@ -3,7 +3,7 @@ variable "name" {
   type        = string
 }
 
-variable "aw_folder_id" {
-  description = "ID of Assured Workloads folder"
+variable "parent" {
+  description = "ID of parent folder"
   type        = string
 }
