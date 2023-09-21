@@ -1,5 +1,9 @@
-variable "project_prefix" {
-  description = "Prefix for projects."
+variable "name" {
+  description = "Name of folder"
   type        = string
-  default     = "prj"
+}
+
+variable "aw_folder_id" {
+  description = "ID of Assured Workloads folder"
+  type        = string
 }

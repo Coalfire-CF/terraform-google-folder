@@ -6,17 +6,19 @@ data "google_folder" "aw_folder" {
   Create folders
 *************************************************/
 
-resource "google_folder" "management" {
-  display_name = "${var.folder_prefix}-management"
+resource "google_folder" "folder" {
+  display_name = var.name
   parent       = data.google_folder.aw_folder.name
 }
 
-resource "google_folder" "networking" {
-  display_name = "${var.folder_prefix}-networking"
-  parent       = data.google_folder.aw_folder.name
-}
+resource "google_folder_iam_audit_config" "audit" {
+  folder  = google_folder.folder.name
+  service = "allServices"
 
-resource "google_folder" "application" {
-  display_name = "${var.folder_prefix}-application"
-  parent       = data.google_folder.aw_folder.name
+  dynamic "audit_log_config" {
+    for_each = toset(["DATA_READ", "DATA_WRITE", "ADMIN_READ"])
+    content {
+      log_type = audit_log_config.key
+    }
+  }
 }
