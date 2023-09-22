@@ -3,12 +3,15 @@
 ## Description
 This Google Cloud Project module creates the folders.
 
-FedRAMP Compliance: High (via the Admin Console) 
+FedRAMP Compliance: High
 
 ### Usage
 ```
 module "folder" {
+    source = "github.com/Coalfire-CF/terraform-gcp-folder"
 
+    name    = "folder-name"
+    parent  = "organizations/your-org-id"
 }
 ```
 <!-- BEGIN_TF_DOCS -->
@@ -41,7 +44,7 @@ No modules.
 | Name | Description | Type | Default | Required |
 |------|-------------|------|---------|:--------:|
 | <a name="input_name"></a> [name](#input\_name) | Name of folder | `string` | n/a | yes |
-| <a name="input_parent"></a> [parent](#input\_parent) | ID of parent folder | `string` | n/a | yes |
+| <a name="input_parent"></a> [parent](#input\_parent) | The resource name of the parent Folder or Organization. Must be of the form folders/{folder\_id} or organizations/{org\_id}. | `string` | n/a | yes |
 
 ## Outputs
 
