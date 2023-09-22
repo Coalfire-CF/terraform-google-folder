@@ -44,7 +44,7 @@ No modules.
 | Name | Description | Type | Default | Required |
 |------|-------------|------|---------|:--------:|
 | <a name="input_name"></a> [name](#input\_name) | Name of folder | `string` | n/a | yes |
-| <a name="input_parent"></a> [parent](#input\_parent) | ID of parent folder | `string` | n/a | yes |
+| <a name="input_parent"></a> [parent](#input\_parent) | The resource name of the parent Folder or Organization. Must be of the form folders/{folder\_id} or organizations/{org\_id}. | `string` | n/a | yes |
 
 ## Outputs
 
