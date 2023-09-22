@@ -3,12 +3,15 @@
 ## Description
 This Google Cloud Project module creates the folders.
 
-FedRAMP Compliance: High (via the Admin Console) 
+FedRAMP Compliance: High
 
 ### Usage
 ```
 module "folder" {
+    source = "github.com/Coalfire-CF/ACE-GCP-Folder"
 
+    name    = "folder-name"
+    parent  = "organizations/your-org-id"
 }
 ```
 <!-- BEGIN_TF_DOCS -->
