@@ -8,7 +8,7 @@ FedRAMP Compliance: High
 ### Usage
 ```
 module "folder" {
-    source = "github.com/Coalfire-CF/ACE-GCP-Folder"
+    source = "github.com/Coalfire-CF/terraform-gcp-folder"
 
     name    = "folder-name"
     parent  = "organizations/your-org-id"
