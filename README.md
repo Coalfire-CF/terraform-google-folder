@@ -47,5 +47,7 @@ No modules.
 
 ## Outputs
 
-No outputs.
+| Name | Description |
+|------|-------------|
+| <a name="output_folder_id"></a> [folder\_id](#output\_folder\_id) | The folder ID. |
 <!-- END_TF_DOCS -->
