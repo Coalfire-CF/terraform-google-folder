@@ -51,3 +51,15 @@ No modules.
 |------|-------------|
 | <a name="output_folder_id"></a> [folder\_id](#output\_folder\_id) | The folder ID. |
 <!-- END_TF_DOCS -->
+## Tree
+```text
+.
+|-- CONTRIBUTING.md
+|-- LICENSE
+|-- README.md
+|-- coalfire_logo.png
+|-- main.tf
+|-- outputs.tf
+|-- release-please-config.json
+|-- variables.tf
+```
