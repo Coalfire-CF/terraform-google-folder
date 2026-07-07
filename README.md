@@ -3,11 +3,13 @@
 # Google Cloud Folder Terraform Module
 
 ## Description
+
 This Google Cloud Project module creates the folders. Coalfire has tested this module with Terraform version 1.5.0 and the Hashicorp Google provider versions 4.70 - 5.0.
 
 FedRAMP Compliance: High
 
 ### Usage
+
 ```
 module "folder" {
     source = "github.com/Coalfire-CF/terraform-gcp-folder"
@@ -52,8 +54,10 @@ No modules.
 | <a name="output_folder_id"></a> [folder\_id](#output\_folder\_id) | The folder ID. |
 <!-- END_TF_DOCS -->
 ## Tree
+
 ```text
 .
+|-- CHANGELOG.md
 |-- CONTRIBUTING.md
 |-- LICENSE
 |-- README.md
