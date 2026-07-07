@@ -52,8 +52,10 @@ No modules.
 | <a name="output_folder_id"></a> [folder\_id](#output\_folder\_id) | The folder ID. |
 <!-- END_TF_DOCS -->
 ## Tree
+
 ```text
 .
+|-- CHANGELOG.md
 |-- CONTRIBUTING.md
 |-- LICENSE
 |-- README.md
