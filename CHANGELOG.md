@@ -1,5 +1,23 @@
 # Changelog
 
+## [1.1.1](https://github.com/Coalfire-CF/terraform-google-folder/compare/v1.1.0...v1.1.1) (2026-07-24)
+
+
+### Bug Fixes
+
+* **release:** pass secrets to org-release (App token for release-please) ([#34](https://github.com/Coalfire-CF/terraform-google-folder/issues/34)) ([c78b69f](https://github.com/Coalfire-CF/terraform-google-folder/commit/c78b69f09bcaa8b44456e4f85db8ba8c1343733c))
+
+
+### Miscellaneous
+
+* adopt Actions v0.12.1 (bypass auto-merge + event-driven re-merge) ([7b666ae](https://github.com/Coalfire-CF/terraform-google-folder/commit/7b666ae0927e946edd1f54eb68818d01e361ac43))
+* **ci:** adopt Coalfire-CF/Actions v0.11.3 ([#33](https://github.com/Coalfire-CF/terraform-google-folder/issues/33)) ([76572cc](https://github.com/Coalfire-CF/terraform-google-folder/commit/76572ccb705e0634bbad933bd678d67394b1e4ad))
+* **deps:** bump the org-actions group with 10 updates ([#31](https://github.com/Coalfire-CF/terraform-google-folder/issues/31)) ([b58a481](https://github.com/Coalfire-CF/terraform-google-folder/commit/b58a4819a51a9429e7d8594798a323e223a18bef))
+* **deps:** bump the org-actions group with 10 updates ([#35](https://github.com/Coalfire-CF/terraform-google-folder/issues/35)) ([977afa8](https://github.com/Coalfire-CF/terraform-google-folder/commit/977afa873323b8170cd40ca9add53b07377963dc))
+* **deps:** bump the org-actions group with 10 updates ([#36](https://github.com/Coalfire-CF/terraform-google-folder/issues/36)) ([626de0b](https://github.com/Coalfire-CF/terraform-google-folder/commit/626de0b2084624aeec4097a2404d21c877bb5238))
+* **deps:** bump the org-actions group with 10 updates ([#37](https://github.com/Coalfire-CF/terraform-google-folder/issues/37)) ([d44b295](https://github.com/Coalfire-CF/terraform-google-folder/commit/d44b2958530f46014280d8cb280c3be7a1fc74f8))
+* **deps:** bump the org-actions group with 10 updates ([#38](https://github.com/Coalfire-CF/terraform-google-folder/issues/38)) ([408e991](https://github.com/Coalfire-CF/terraform-google-folder/commit/408e99137abecef8bdcc7185a1d4898110eca106))
+
 ## [1.1.0](https://github.com/Coalfire-CF/terraform-google-folder/compare/v1.0.3...v1.1.0) (2026-07-05)
 
 
